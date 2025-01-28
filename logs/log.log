@@ -1,0 +1,20 @@
+2025-01-28 13:11:34,916 - INFO - Starting training process
+2025-01-28 13:11:34,916 - INFO - Configuration: {'data': {'train_path': 'data/dataset_train.pt', 'test_path': 'data/dataset_test.pt', 'batch_size': 32}, 'model': {'bert_name': 'cointegrated/rubert-tiny', 'freeze_bert': False}, 'training': {'epochs': 5, 'learning_rate': '1e-5', 'save_dir': 'models'}, 'logging': {'log_dir': 'logs', 'level': 'INFO', 'format': '%(asctime)s - %(levelname)s - %(message)s'}}
+2025-01-28 13:11:35,626 - INFO - Model initialized
+2025-01-28 13:11:35,800 - INFO - Train samples: 223461, Test samples: 24829
+2025-01-28 13:16:05,323 - INFO - Epoch 1 [269.5s]
+2025-01-28 13:16:05,323 - INFO - Train Loss: 0.1773 | Acc: 0.9310
+2025-01-28 13:16:05,323 - INFO - Test  Loss: 0.1172 | Acc: 0.9571
+2025-01-28 13:20:34,377 - INFO - Epoch 2 [269.0s]
+2025-01-28 13:20:34,377 - INFO - Train Loss: 0.1006 | Acc: 0.9639
+2025-01-28 13:20:34,377 - INFO - Test  Loss: 0.0895 | Acc: 0.9689
+2025-01-28 13:24:56,084 - INFO - Epoch 3 [261.7s]
+2025-01-28 13:24:56,084 - INFO - Train Loss: 0.0817 | Acc: 0.9709
+2025-01-28 13:24:56,084 - INFO - Test  Loss: 0.0804 | Acc: 0.9720
+2025-01-28 13:29:29,193 - INFO - Epoch 4 [273.1s]
+2025-01-28 13:29:29,193 - INFO - Train Loss: 0.0702 | Acc: 0.9746
+2025-01-28 13:29:29,193 - INFO - Test  Loss: 0.0786 | Acc: 0.9733
+2025-01-28 13:33:50,194 - INFO - Epoch 5 [261.0s]
+2025-01-28 13:33:50,194 - INFO - Train Loss: 0.0623 | Acc: 0.9781
+2025-01-28 13:33:50,194 - INFO - Test  Loss: 0.0738 | Acc: 0.9752
+2025-01-28 13:33:50,237 - INFO - Training completed

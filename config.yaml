@@ -1,0 +1,25 @@
+# Конфигурация данных
+data:
+  train_path: "data/dataset_train.pt"
+  test_path: "data/dataset_test.pt"
+  batch_size: 32
+
+# Параметры модели
+model:
+  bert_name: "cointegrated/rubert-tiny"
+
+predct:
+  use_model: "models/model_5.pth"
+  threshold: 0.75
+
+# Гиперпараметры обучения
+training:
+  epochs: 5
+  learning_rate: 1e-5
+  save_dir: "models"
+
+# Настройки логирования
+logging:
+  log_dir: "logs"
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
